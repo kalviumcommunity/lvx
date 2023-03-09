@@ -1,0 +1,29 @@
+.product-card {
+    background-color: #0e8e96;
+    min-height: 60vh;
+    width: 28rem;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 1.5rem;
+}
+
+.img {
+    max-height: 280px;
+    max-width: 85%;
+    width: 100%;
+    margin-top: 2rem;
+    align-self: center;
+}
+
+.price {
+    font-size: x-large;
+    margin-top: 1rem;
+    align-self: baseline;
+    color: white;
+}
+
+.description {
+    margin-top: 1%;
+    color: whitesmoke;
+}
