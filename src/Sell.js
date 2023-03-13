@@ -6,19 +6,22 @@ function Sell() {
     return (
       <>
       <Navbar2 />
-      <div className='sell-page'>
-      <div className='sell-card'>
-        <div className='image-section'>
-          <div className="add-icon">
-            <BiImageAdd size={60} />
+      <div className='sellcontent'>
+        <form className='sell-form'>
+          <div className='image-section'>
+            <div className="add-icon">
+              <BiImageAdd size={60} />
+            </div>
+            <div>Add images</div>
           </div>
-          <div>Add images</div>
-        </div>
-        <div className='description3'>DESCRIPTION</div>
-        <div className='descrip'>Lorem ipsum dolor sit amet consectetur 
-          adipisicing elit. Molestiae ipsa neque.</div>
-        <div className='sell-icon'>SELL</div>
-      </div>
+        <label className='name'>Name of the product</label>
+        <input className='enter'></input>
+        <label className='name'>Price</label>
+        <input className='enter' type='number'></input>
+        <label className='name'>DESCRIPTION</label>
+        <textarea className='descrip'></textarea>
+          <button type='submit' className='sell-icon'>SELL</button>
+        </form>
       </div>
       </>
       )

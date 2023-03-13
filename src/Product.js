@@ -1,14 +1,12 @@
 import React from "react";
 import Navbar from "./Components/Navbar/Navbar";
 import "./Product.css";
-import { useLocation, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import data from "./data.json";
 
 function App2() {
-  const location = useLocation()
   const params = useParams()
   const product = data.find(item =>item.id==params.id)
-  console.log(product)
   return (
     <>
     <Navbar />
@@ -19,8 +17,8 @@ function App2() {
           className="image"
         ></img>
         <div className="details">
-            <div className="price2">{product.price}</div>
-            <div className="description2">{product.description}</div>
+            <div className="priceofproduct">{product.price}</div>
+            <div className="descriptionofproduct">{product.description}</div>
         </div>
       </div>
     </>
