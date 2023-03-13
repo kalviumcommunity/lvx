@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Components/Navbar/Navbar'
+import lvx from './Images/lvx.jpg'
 import './about.css'
 
 function About() {
@@ -7,7 +8,7 @@ function About() {
     <>
     <Navbar/>
     <div className='aboutpage'>
-    <img src='https://i1.sndcdn.com/avatars-000650172765-896cr8-t500x500.jpg' className='lvximg' />
+    <img src={lvx} alt="lvx"/>
     <div className='aboutbox'>
       <div className='abouttext'>
         Lvx is a classified website for LPU students, 

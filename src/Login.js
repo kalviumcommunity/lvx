@@ -12,11 +12,11 @@ export default function login() {
             <label className='label'>Name</label>
             <input className='inputs'></input>
             <label className='label'>Email</label>
-            <input className='inputs'></input>
+            <input className='inputs' type='email'></input>
             <label className='label'>Whatsapp Number</label>
-            <input className='inputs'></input>
+            <input className='inputs' type='number'></input>
             <label className='label'>Lpu Registration ID</label>
-            <input className='inputs'></input>
+            <input className='inputs' type='number'></input>
           </div>
             <button type='submit' id='logbtn'>LOGIN</button>
         </div>
