@@ -4,7 +4,7 @@ import "./Product.css";
 import { useParams } from "react-router-dom";
 import data from "./data.json";
 
-function App2() {
+function Product() {
   const params = useParams()
   const product = data.find(item =>item.id==params.id)
   return (
@@ -25,4 +25,4 @@ function App2() {
   );
 }
 
-export default App2;
+export default Product;
