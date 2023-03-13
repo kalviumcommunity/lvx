@@ -5,7 +5,7 @@ import "./items.css";
 function Item(props) {
   const navigate =useNavigate()
   function handleClick (){
-    navigate("/product"+'/'+props.id)
+    navigate(`/product/${props.id}`)
   }
   return (
       <div className="product-card" onClick={handleClick}>
