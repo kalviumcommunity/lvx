@@ -1,5 +1,5 @@
 .content2 {
-    /* background-color: #964b4b; */
+    /* background-color: #d1d1d1; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,7 +11,7 @@
 
 .image {
     max-width: 40rem;
-    width: fit-content;
+    width: 40rem;
     height: 30rem;
 }
 

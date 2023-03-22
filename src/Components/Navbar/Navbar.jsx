@@ -16,13 +16,13 @@ function Navbar() {
             className="input"
             placeholder="search for any product"
           />
-          <button className="icon">
+          <div className="icon">
             <FiSearch size={30} />
-          </button>
+          </div>
         </div>
         <div className="about">
           <Link to='/about'>
-            <div className="abtus">About us</div>
+            <div className="abtus">ABOUT US</div>
           </Link>
         </div>
         <div className="login">
