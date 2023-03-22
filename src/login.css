@@ -11,8 +11,8 @@
   }
 
 .login-box {
-    background-color: #0e8e96;
-    color: white;
+    background-color: #C0DEFF;
+    /* color: white; */
     height: 70vh;
     width: 40rem;
     display: flex;
@@ -21,6 +21,8 @@
     flex-wrap: wrap;
     flex-direction: column;
     gap: 1rem;
+    border: black 5px solid;
+    border-radius: 30% 0%;
 }
 
 .area{

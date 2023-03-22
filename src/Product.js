@@ -6,7 +6,7 @@ import data from "./data.json";
 
 function Product() {
   const params = useParams()
-  const product = data.find(item =>item.id==params.id)
+  const product = data.find(item =>item.id===Number(params.id))
   return (
     <>
     <Navbar />
