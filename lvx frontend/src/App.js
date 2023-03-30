@@ -6,7 +6,7 @@ import { useEffect } from "react";
 import "./App.css";
 function App() {
 
-  const url = 'http://127.0.0.1:2000/lvx/items'
+  const url = `${process.env.REACT_APP_API}/lvx/items`
   useEffect(()=>{
 
     const fetchDB = async() =>{

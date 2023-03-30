@@ -25,7 +25,7 @@ mongoose
     useFindAndModify: false,
     useUnifiedTopology: true, //optional
   })
-  .then((con) => console.log('DB connction established'))
+  .then((con) => console.log('connected to Database'))
   .catch((err) => console.log(err));
 
 //Middlewares
